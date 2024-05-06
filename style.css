@@ -1,10 +1,10 @@
 header{ /*classe cabecalho criada no HTML*/
     background-color: #14e509; /*cor do fundo*/
-    color: rgb(0, 255, 13); /*cor da fonte*/
+    color: rgb(8, 58, 11); /*cor da fonte*/
 }
 body{ /*fonte utilizada em todo texto da página*/
     font-family: "Geostar Fill", serif; /*estilo da fonte*/
-    background-color: #09ff00;
+    background-color: #020f01;
 }
 .cabecalho-imagem{ /*classe cabecalho-imagem no HTML*/
     width: 15%; /*largura da imagem do cabeçalho*/
