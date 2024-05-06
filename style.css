@@ -4,7 +4,7 @@ header{ /*classe cabecalho criada no HTML*/
 }
 body{ /*fonte utilizada em todo texto da página*/
     font-family: "Geostar Fill", serif; /*estilo da fonte*/
-    background-color: #020f01;
+    background-color: #d617bd;
 }
 .cabecalho-imagem{ /*classe cabecalho-imagem no HTML*/
     width: 15%; /*largura da imagem do cabeçalho*/
