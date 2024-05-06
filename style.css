@@ -14,7 +14,7 @@ body{ /*fonte utilizada em todo texto da página*/
 }
 .cabecalho{ /*classe cabecalho no HTML*/
     background-color: #15ff00; 
-    color: rgb(0, 247, 0);
+    color: rgb(0, 5, 0);
     display: flex; /*organiza os elementos lado a lado, só muda de linha se ocupar todo o espaço*/
     justify-content: space-around; /*justifica o conteúdo, space-around=espaço ao redor, cria margens iguais entre os elementos da linha*/
     padding: 24px 0; /*espaçamento interno, considera as bordas do proprio elemento*/
@@ -40,7 +40,7 @@ body{ /*fonte utilizada em todo texto da página*/
 }
 .escola{ /*classe escola no HTML*/
     background-image: linear-gradient(#0d6705, #39ca09); /*imagem de fundo*/
-    color: rgb(9, 255, 0);
+    color: rgb(3, 53, 1);
     display: flex;
     justify-content: center;
     align-items: center; /*alinhamento dos elementos: centro*/
