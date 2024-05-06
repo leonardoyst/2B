@@ -1,84 +1,82 @@
-<!DOCTYPE html> <!--tipo do documento-->
-<html lang="pt-br"> <!--linguagem-->
-<head> <!--informações sobre o documento, incluindo titulos e links-->
-    <meta charset="UTF-8"> <!--define o conjunto de caracteres do conteudo da pagina-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--ajusta o conteudo para diferentes telas-->
-    <title>Projeto 2º ano</title> <!-- título que aparece na aba do navegador -->
-    <link rel="stylesheet" href="style.css"> <!-- rel identifica o tipo de arquivo e href o arquivo q vai ser inserido-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geostar+Fill&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasco da Gama</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #122b40;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #0a1e33;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #1e4782;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+        }
+        footer {
+            background-color: #122b40;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
-<body> <!-- classes sao criadas para facilitar a edição no CSS -->
-    <header class="cabecalho"> <!--classe cabeçalho-->
-     <img class="cabecalho-imagem" src="alurastart.png" alt="logo da alura start"> <!--classe imagem, adicionar imagem-->   
-     <!--SRC define a imagem que será adicionada e ALT descreve a imagem-->
-     <ul class="cabecalho-lista-item"> <!--ul cria uma lista nao ordenada-->
-        <li class="cabecalho-lista-item">Estudantes</li> <!--li são os elementos da lista-->
-        <li class="cabecalho-lista-item">Escola</li>
-     </ul>
+<body>
+    <header>
+        <h1>Vasco da Gama</h1>
     </header>
-    <section class="escola"> <!--cria uma seção no documento-->
-        <div class="escola-conteudo"> <!--div cria blocos genéricos para agrupar elementos-->
-        <h2 class="escola-titulo">Sobre a Escola</h2> <!--h2 é um tamanho de fonte, tipo subtitulo-->
-        <p class="escola-texto-um">O Colégio Estadual BlaBlaBla foi fundado em 1900 e 
-        la vai bolinha
-        </p> <!--p representa um parágrafo-->
-        <p class="escola-texto-dois">O colégio é situado em blablabla</p>
-        </div>
-        <img class="escola-imagem" src="colegio.png" alt="Colegio"> <!--adiciona imagem-->
+    <nav>
+        <a href="#historia">História</a>
+        <a href="#titulos">Títulos</a>
+        <a href="#estadio">Estádio</a>
+    </nav>
+    <section id="historia">
+        <h2>História</h2>
+        <p>O Club de Regatas Vasco da Gama é um dos principais clubes esportivos do Brasil, fundado em 21 de agosto de 1898, na cidade do Rio de Janeiro.</p>
+        <p>Com uma rica história no futebol, o Vasco da Gama é conhecido por sua torcida apaixonada e por conquistas memoráveis em competições nacionais e internacionais.</p>
     </section>
-    <section class="estudante"> <!--seção estudante-->
-        <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
-      <div class="estudante-todos">
-        <span></span> <!--utilizado para modificar propriedades do texto, não tem uma função específica-->
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="2029.png" alt="palmeiras">
-            <h3 class="estudante-nome">Goku</h3> <!--h3 é um tamanho de fonte menor que a h2-->
-            <a href="https://https://www.instagram.com/" target="_blank"><img class="estudante-icone" src="instagram.png" alt="Instagram"></a>
-            <img class="estudante-icone" src="twitter.png" alt="Twitter">
-            <img class="estudante-icone" src="github.png" alt="Github">
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="junior.png" alt="Groovador">
-            <h3 class="estudante-nome">Junior Groovador</h3>
-            <img class="estudante-icone" src="instagram.png" alt="Instagram">
-            <img class="estudante-icone" src="twitter.png" alt="Twitter">
-            <img class="estudante-icone" src="github.png" alt="Github">
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="bob.png" alt="BobEsponja">
-            <h3 class="estudante-nome">Bob Esponja</h3>
-            <img class="estudante-icone" src="instagram.png" alt="Instagram">
-            <img class="estudante-icone" src="twitter.png" alt="Twitter">
-            <img class="estudante-icone" src="github.png" alt="Github">
-        </div>
-        <span></span>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="michael.jpg" alt="Michael">
-            <h3 class="estudante-nome">Michael Scott</h3>
-            <img class="estudante-icone" src="instagram.png" alt="Instagram">
-            <img class="estudante-icone" src="twitter.png" alt="Twitter">
-            <img class="estudante-icone" src="github.png" alt="Github">
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="coragem.jpg" alt="Coragem">
-            <h3 class="estudante-nome">Coragem</h3>
-            <img class="estudante-icone" src="instagram.png" alt="Instagram">
-            <img class="estudante-icone" src="twitter.png" alt="Twitter">
-            <img class="estudante-icone" src="github.png" alt="Github">
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="agostinho.jpg" alt="Agostinho">
-            <h3 class="estudante-nome">Agostinho Carrara</h3>
-            <img class="estudante-icone" src="instagram.png" alt="Instagram">
-            <img class="estudante-icone" src="twitter.png" alt="Twitter">
-            <img class="estudante-icone" src="github.png" alt="Github">
-        </div>
-        </div>
+    <section id="titulos">
+        <h2>Títulos</h2>
+        <p>O Vasco da Gama possui diversos títulos importantes, incluindo campeonatos estaduais, nacionais e internacionais. Entre os principais estão:</p>
+        <ul>
+            <li>4 Campeonatos Brasileiros</li>
+            <li>1 Copa Libertadores da América</li>
+            <li>1 Copa Mercosul</li>
+            <li>24 Campeonatos Cariocas</li>
+        </ul>
     </section>
-<footer>
-    <img class="rodape-imagem" src="alurastart.png" alt="Logo da alura">
-</footer>    
+    <section id="estadio">
+        <h2>Estádio</h2>
+        <p>O estádio oficial do Vasco da Gama é o Estádio Vasco da Gama, mais conhecido como São Januário. Inaugurado em 1927, é um dos estádios mais tradicionais do futebol brasileiro.</p>
+        <p>Localizado no bairro de São Cristóvão, na cidade do Rio de Janeiro, São Januário tem capacidade para aproximadamente 22.000 espectadores.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Vasco da Gama - Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
