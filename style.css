@@ -71,11 +71,11 @@ body{ /*fonte utilizada em todo texto da página*/
 }
 
 footer{ /*caracteristicas do rodape*/
-    background-color: black;
+    background-color: rgb(220, 43, 255);
     padding: 10px 0;
     text-align: center;
 }
 
 .rodape-imagem{ /*tamanho da imagem do rodape*/
-    width: 100px;
+    width: 50px;
 }
