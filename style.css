@@ -1,10 +1,10 @@
 header{ /*classe cabecalho criada no HTML*/
-    background-color: #c800c4; /*cor do fundo*/
-    color: rgb(212, 0, 169); /*cor da fonte*/
+    background-color: #ffffff; /*cor do fundo*/
+    color: rgb(255, 255, 255); /*cor da fonte*/
 }
 body{ /*fonte utilizada em todo texto da página*/
-    font-family: "Geostar Fill", serif; /*estilo da fonte*/
-    background-color: #d617bd;
+    font-family: "Geostar Fill", sans-serif; /*estilo da fonte*/
+    background-color: #c75bb8;
 }
 .cabecalho-imagem{ /*classe cabecalho-imagem no HTML*/
     width: 15%; /*largura da imagem do cabeçalho*/
@@ -39,7 +39,7 @@ body{ /*fonte utilizada em todo texto da página*/
     margin-left: 10%;
 }
 .escola{ /*classe escola no HTML*/
-    background-image: linear-gradient(#0d6705, #39ca09); /*imagem de fundo*/
+    background-image: linear-gradient(#58004d, #d331f3); /*imagem de fundo*/
     color: rgb(3, 53, 1);
     display: flex;
     justify-content: center;
