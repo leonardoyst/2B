@@ -4,7 +4,7 @@ header{ /*classe cabecalho criada no HTML*/
 }
 body{ /*fonte utilizada em todo texto da página*/
     font-family: "Geostar Fill", sans-serif; /*estilo da fonte*/
-    background-color: #c75bb8;
+    background-color: #d331f3;
 }
 .cabecalho-imagem{ /*classe cabecalho-imagem no HTML*/
     width: 15%; /*largura da imagem do cabeçalho*/
@@ -13,7 +13,7 @@ body{ /*fonte utilizada em todo texto da página*/
     /*padding: 18px 40px;*/
 }
 .cabecalho{ /*classe cabecalho no HTML*/
-    background-color: #15ff00; 
+    background-color: #58004d; 
     color: rgb(187, 15, 130);
     display: flex; /*organiza os elementos lado a lado, só muda de linha se ocupar todo o espaço*/
     justify-content: space-around; /*justifica o conteúdo, space-around=espaço ao redor, cria margens iguais entre os elementos da linha*/
